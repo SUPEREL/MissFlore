@@ -1,5 +1,5 @@
 if [ -z $UPSTREAM_REPO ]
-then
+
   echo "Cloning main Repository"
   git clone https://github.com/SUPEREL/MissFlore.git /MissFlore
 else
